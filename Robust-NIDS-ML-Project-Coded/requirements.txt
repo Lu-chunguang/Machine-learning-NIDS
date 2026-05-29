@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+xgboost
+matplotlib
+seaborn
+ipython
+jupyter
+notebook
+pyyaml
+joblib
+pytest

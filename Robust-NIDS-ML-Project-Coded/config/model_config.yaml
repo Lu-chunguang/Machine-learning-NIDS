@@ -1,0 +1,12 @@
+random_state: 42
+baseline_models:
+  - MajorityClassBaseline
+  - LogisticRegression
+  - RandomForest
+  - XGBoost
+primary_model: XGBoost
+evaluation_metrics:
+  - accuracy
+  - macro_f1
+  - weighted_f1
+  - per_class_recall

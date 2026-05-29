@@ -1,0 +1,15 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  external_dir: data/external
+  unsw_file: data/raw/NF-UNSW-NB15-v2.csv
+  cicids_file: data/raw/NF-CSE-CIC-IDS2018-v2.csv
+models:
+  baseline_dir: models/baseline
+  open_set_dir: models/open_set
+  cross_dataset_dir: models/cross_dataset
+  feature_robustness_dir: models/feature_robustness
+results:
+  component1_dir: results/Component1_Baseline
+  component2_dir: results/Component2_Robustness_Evaluation
+  component3_dir: results/Component3_Robustness_Strategies

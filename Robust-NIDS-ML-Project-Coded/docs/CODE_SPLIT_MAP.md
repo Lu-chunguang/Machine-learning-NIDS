@@ -1,0 +1,42 @@
+# Code Split Map
+This file records how notebook cells were split into the VS Code project structure.
+- `src/Component1_Baseline/01_initial_dataset_audit.py` ← `C1-0A, C1-0B, C1-0C`
+- `src/Component1_Baseline/02_data_quality_audit.py` ← `C1-1A, C1-1B`
+- `src/Component1_Baseline/03_exploratory_feature_analysis.py` ← `C1-2A, C1-2B, C1-2C, C1-2D`
+- `src/Component1_Baseline/04_baseline_preparation_and_split.py` ← `C1-3A, C1-3B, C1-4A, C1-4B, C1-4C`
+- `src/Component1_Baseline/05_baseline_feature_preprocessing.py` ← `C1-5A, C1-5B, C1-5C, C1-5D`
+- `src/Component1_Baseline/06_baseline_model_training.py` ← `C1-6A, C1-6B, C1-6C, C1-6D, C1-6E`
+- `src/Component1_Baseline/07_baseline_model_comparison.py` ← `C1-6F, C1-6G, C1-6H`
+- `src/Component1_Baseline/08_final_test_evaluation.py` ← `C1-7A`
+- `src/Component2_Robustness_Evaluation/Component2A_Held_Out_Attack_Classes/01_define_held_out_scenarios.py` ← `C2A-1`
+- `src/Component2_Robustness_Evaluation/Component2A_Held_Out_Attack_Classes/02_scenario_A1_weak_attack_unknown.py` ← `C2A-2, C2A-3, C2A-4, C2A-5, C2A-6, C2A-7, C2A-8, C2A-9`
+- `src/Component2_Robustness_Evaluation/Component2A_Held_Out_Attack_Classes/03_scenario_A2_common_attack_unknown.py` ← `C2A-10, C2A-11, C2A-12, C2A-13, C2A-14, C2A-15, C2A-16, C2A-17, C2A-18`
+- `src/Component2_Robustness_Evaluation/Component2A_Held_Out_Attack_Classes/04_full_open_set_mapping_matrix.py` ← `C2A-19`
+- `src/Component2_Robustness_Evaluation/Component2B_Cross_Dataset_Distribution_Shift/01_load_cicids2018_dataset.py` ← `C2B-1`
+- `src/Component2_Robustness_Evaluation/Component2B_Cross_Dataset_Distribution_Shift/02_column_compatibility_audit.py` ← `C2B-2`
+- `src/Component2_Robustness_Evaluation/Component2B_Cross_Dataset_Distribution_Shift/03_source_domain_preprocessing.py` ← `C2B-3, C2B-4`
+- `src/Component2_Robustness_Evaluation/Component2B_Cross_Dataset_Distribution_Shift/04_source_only_prediction.py` ← `C2B-5`
+- `src/Component2_Robustness_Evaluation/Component2B_Cross_Dataset_Distribution_Shift/05_binary_performance_evaluation.py` ← `C2B-6`
+- `src/Component2_Robustness_Evaluation/Component2B_Cross_Dataset_Distribution_Shift/06_per_attack_failure_analysis.py` ← `C2B-7`
+- `src/Component2_Robustness_Evaluation/Component2B_Cross_Dataset_Distribution_Shift/07_feature_distribution_shift_audit.py` ← `C2B-8, C2B-9, C2B-10`
+- `src/Component2_Robustness_Evaluation/Component2C_Feature_Degradation_Stress_Test/01_degradation_design_and_clean_baseline.py` ← `C2C-1`
+- `src/Component2_Robustness_Evaluation/Component2C_Feature_Degradation_Stress_Test/02_degradation_utilities.py` ← `C2C-2`
+- `src/Component2_Robustness_Evaluation/Component2C_Feature_Degradation_Stress_Test/03_baseline_degradation_tests.py` ← `C2C-3`
+- `src/Component2_Robustness_Evaluation/Component2C_Feature_Degradation_Stress_Test/04_feature_dropout_importance.py` ← `C2C-4`
+- `src/Component2_Robustness_Evaluation/Component2C_Feature_Degradation_Stress_Test/05_baseline_degradation_curves.py` ← `C2C-5`
+- `src/Component3_Robustness_Strategies/Component3A_Open_Set_Handling/01_confidence_thresholding.py` ← `C3A-1, C3A-1B, C3A-2, C3A-3, C3A-4, C3A-5, C3A-6`
+- `src/Component3_Robustness_Strategies/Component3A_Open_Set_Handling/02_isolation_forest_fallback.py` ← `C3A-7, C3A-8, C3A-9, C3A-10, C3A-10B`
+- `src/Component3_Robustness_Strategies/Component3A_Open_Set_Handling/03_open_set_ablation_study.py` ← `C3A-11`
+- `src/Component3_Robustness_Strategies/Component3B_Distribution_Shift_Improvement/01_cost_sensitive_binary_learning.py` ← `C3B-1, C3B-2, C3B-3, C3B-4, C3B-5`
+- `src/Component3_Robustness_Strategies/Component3B_Distribution_Shift_Improvement/02_cost_weight_tradeoff.py` ← `C3B-5B`
+- `src/Component3_Robustness_Strategies/Component3B_Distribution_Shift_Improvement/03_few_shot_target_domain_split.py` ← `C3B-6`
+- `src/Component3_Robustness_Strategies/Component3B_Distribution_Shift_Improvement/04_few_shot_target_domain_training.py` ← `C3B-7, C3B-8`
+- `src/Component3_Robustness_Strategies/Component3B_Distribution_Shift_Improvement/05_few_shot_holdout_evaluation.py` ← `C3B-9, C3B-10`
+- `src/Component3_Robustness_Strategies/Component3B_Distribution_Shift_Improvement/06_strategy_comparison_and_ablation.py` ← `C3B-11`
+- `src/Component3_Robustness_Strategies/Component3C_Feature_Robustness_Augmentation/01_augmentation_design.py` ← `C3C-1`
+- `src/Component3_Robustness_Strategies/Component3C_Feature_Robustness_Augmentation/02_train_augmented_models.py` ← `C3C-2`
+- `src/Component3_Robustness_Strategies/Component3C_Feature_Robustness_Augmentation/03_clean_performance_check.py` ← `C3C-3`
+- `src/Component3_Robustness_Strategies/Component3C_Feature_Robustness_Augmentation/04_augmented_degradation_stress_test.py` ← `C3C-4`
+- `src/Component3_Robustness_Strategies/Component3C_Feature_Robustness_Augmentation/05_original_vs_augmented_comparison.py` ← `C3C-5`
+- `src/Component3_Robustness_Strategies/Component3C_Feature_Robustness_Augmentation/06_augmentation_variant_ablation.py` ← `C3C-6`
+- `src/Component3_Robustness_Strategies/Component3C_Feature_Robustness_Augmentation/07_degradation_curves.py` ← `C3C-7`
